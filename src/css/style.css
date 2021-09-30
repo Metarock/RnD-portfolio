@@ -76,10 +76,35 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-image: url(https://www.healtheuropa.eu/wp-content/uploads/2020/10/%C2%A9-iStock-NatalyaBurova.jpg);
     background-position: center top;
 	background-size:cover;
 }
+
+.opportunities {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.growthaccelerationpartners.com/wp-content/uploads/2018/01/artificial-intelligence-concept-picture-id1160995648.jpg);
+    background-position: center top;
+	background-size:cover;
+}
+
+.risks {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.wired.co.uk/photos/606d9ad6751ea43ccd98862c/master/w_1600,c_limit/screenshot.jpg);
+    background-position: center top;
+	background-size:cover;
+}
+
+.choices {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://vni.s3.amazonaws.com/200306160316276.jpg);
+    background-position: center top;
+	background-size:cover;
+}
+
 
 .navTrigger {
     display: none;
@@ -341,9 +366,10 @@ body {
     background-color: #111;
 }
 
-
-
-
+.myH4 {
+	text-align:center;
+	font-size: 2rem;
+}
 
 
 .myH2 {
@@ -355,6 +381,13 @@ body {
 	padding-left:15%;
 	padding-right:15%;
 	font-size: 20px;
+}
+
+.myH1 {
+	text-align: center;
+	padding-left:15%;
+	padding-right:15%;
+	font-size: 30px;
 }
 @media all and (max-width:700px){
 	.myP {

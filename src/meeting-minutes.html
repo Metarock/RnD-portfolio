@@ -1,0 +1,63 @@
+<html>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Home page</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="team-formation.html">Team Formation</a></li>
+                    <li><a href="topic-proposal.html">Topic Proposal</a></li>
+                    <li><a href="peer-evaluation.html">Peer Evaluation</a></li>
+                    <li><a href="meeting-minutes.html">Meeting Minutes</a></li>
+                    <li><a href="project-portfolio.html">Project Porfolio</a></li>
+                    <li><a href="assessment-rubric.html">Assessmnent Rubric</a></li>
+                    <li><a href="guideline-conformance.html">Guideline Conformance</a></li>
+                    <li><a href="process-support.html">Process Support</a></li>
+
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+        <!-- just to make scrolling effect possible -->
+        <h2 class="myH2">Meeting minutes</h2>
+        <h4 class="myH4">
+            <p>Team name ____________________________________________________</p>
+        </h4>
+
+        <h4 class="myH4">
+            <p>Team Coordinator/Leader ______________________________________</p>
+        </h4>
+    </div>
+
+    <!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+</body>
+
+</html>
