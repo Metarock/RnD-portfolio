@@ -120,13 +120,13 @@ body {
 
 /* Media qurey section */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 300px) and (max-width: 1370px) {
     .container {
         margin: 0;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen  and (min-width: 300px) and (max-width: 1370px){
     .navTrigger {
         display: block;
     }
@@ -375,6 +375,18 @@ body {
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
+}
+
+.topic-image{
+    text-align: center;
+}
+
+.myH3 {
+	text-align: justify;
+	padding-left:15%;
+	padding-right:15%;
+    font-weight: normal;
+	font-size: 26px;
 }
 .myP {
 	text-align: justify;
