@@ -1,0 +1,70 @@
+<nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="technology.html">Technology/topic</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="opportunities.html">Opportunities</a></li>
+                <li><a href="risk.html">Risks</a></li>
+                <li><a href="choices.html">Choices</a></li>
+                <li><a href="ethical-reflection.html">Ethical reflections</a></li>
+                <li><a href="references.html">References</a></li>
+                <li><a href="process-support.html">Process Support</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+<section class="home">
+</section>
+<div style="height: 1000px">
+    <!-- just to make scrolling effect possible -->
+    <h2 class="myH2">Jackson's Ethical Reflection</h2>
+    <p class="myR">
+        Ethical issues in relation to the effects of artificial intelligence using robotics in surgical health care are mainly seen
+         to be the ever increasing autonomy of robotics and the developments of artificial intelligence which may in the future be 
+         able to guide these robotics through a complete surgical procedure. Thus ethical issues are going to arise on where the
+          line in the sand is going to be drawn as to how much control over choices the AI will have when operating within a surgery.
+           As there are certain rules conducting how robotics must interact with humanity such as not harming humans. Rules like this
+            which the AI must follow may come into jeopardy when the robot must create incisions onto a person and begin surgery on
+             them, also it may be difficult if unforeseen circumstances arise during surgery and the robot may be required to make a 
+             difficult decision between levels of pain for the human there may be a white line on how the robot should make that 
+             decision or if it even should be making the decision. My personal reflection is that in the near future, before AI and 
+             robotics have the ability to conduct a complete surgery autonomously, there must be new laws and legislations regarding 
+             these blurry ethical boundaries to ensure that the robotics installed are creating the most benefit possible for society.
+              With little to no areas where the law may be exploited or unclear. 
+    </p>
+    <p class="myR">
+        From the research which I have conducted, I recommend that through surgical robotics, there is never complete autonomy for the
+         robotic AI to complete a whole surgery by itself. I believe that the robot should always be controlled by a human who makes
+          the important decisions for the robot, while the robotics and AI may be made to adapt to different surgeons and how they
+           operate rather than to conduct a surgery by themselves. This way, there will always be a person who is liable for the 
+           decisions made while conducting surgery on another human being. While the robotics will continue to just aid and make the 
+           surgeons life easier rather than replacing many peoples job which they have spent countless hours studying for.
+
+    </p>
+</div>
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+<link rel="stylesheet" href="css/style.css">
