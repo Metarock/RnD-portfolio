@@ -120,13 +120,13 @@ body {
 
 /* Media qurey section */
 
-@media screen and (min-width: 300px) and (max-width: 1370px) {
+@media screen and (min-width: 300px) and (max-width: 1636px) {
     .container {
         margin: 0;
     }
 }
 
-@media screen  and (min-width: 300px) and (max-width: 1370px){
+@media screen  and (min-width: 300px) and (max-width: 1636px){
     .navTrigger {
         display: block;
     }
