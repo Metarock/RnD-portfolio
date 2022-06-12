@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 62.5%;
     font-size: 10px;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #00e676;
 }
 
 .nav div.main_list {
@@ -67,18 +67,17 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #00e676;
 }
-
 
 /* Home section */
 
 .home {
     width: 100%;
-    height: 100vh;
-    background-image: url(https://www.healtheuropa.eu/wp-content/uploads/2020/10/%C2%A9-iStock-NatalyaBurova.jpg);
+    height: 100%;
+    background-image: url(https://uploads-ssl.webflow.com/5ac45f390012b0637e77ba4d/5ac45f390012b0728277ba96_finappster-blue-header-background.png);
     background-position: center top;
-	background-size:cover;
+    background-size: cover;
 }
 
 .opportunities {
@@ -86,7 +85,7 @@ body {
     height: 100vh;
     background-image: url(https://www.growthaccelerationpartners.com/wp-content/uploads/2018/01/artificial-intelligence-concept-picture-id1160995648.jpg);
     background-position: center top;
-	background-size:cover;
+    background-size: cover;
 }
 
 .risks {
@@ -94,7 +93,7 @@ body {
     height: 100vh;
     background-image: url(https://media.wired.co.uk/photos/606d9ad6751ea43ccd98862c/master/w_1600,c_limit/screenshot.jpg);
     background-position: center top;
-	background-size:cover;
+    background-size: cover;
 }
 
 .choices {
@@ -102,9 +101,8 @@ body {
     height: 100vh;
     background-image: url(https://vni.s3.amazonaws.com/200306160316276.jpg);
     background-position: center top;
-	background-size:cover;
+    background-size: cover;
 }
-
 
 .navTrigger {
     display: none;
@@ -117,7 +115,6 @@ body {
     transition: all 0.4s ease;
 }
 
-
 /* Media qurey section */
 
 @media screen and (min-width: 300px) and (max-width: 1636px) {
@@ -126,7 +123,7 @@ body {
     }
 }
 
-@media screen  and (min-width: 300px) and (max-width: 1636px){
+@media screen and (min-width: 300px) and (max-width: 1636px) {
     .navTrigger {
         display: block;
     }
@@ -167,7 +164,6 @@ body {
         display: block;
     }
 }
-
 
 /* Animation */
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
@@ -367,49 +363,48 @@ body {
 }
 
 .myH4 {
-	text-align:center;
-	font-size: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
-
 
 .myH2 {
-	text-align:center;
-	font-size: 4rem;
+    text-align: center;
+    font-size: 4rem;
 }
 
-.topic-image{
+.topic-image {
     text-align: center;
 }
 
 .myH3 {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
     font-weight: normal;
-	font-size: 26px;
+    font-size: 26px;
 }
 .myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 20px;
 }
 
 .myR {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 40px;
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 40px;
 }
 
 .myH1 {
-	text-align: center;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 30px;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 30px;
 }
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+@media all and (max-width: 700px) {
+    .myP {
+        padding: 2%;
+    }
 }

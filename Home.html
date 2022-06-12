@@ -1,0 +1,86 @@
+<nav class="nav">
+    <div class="container">
+        <div class="logo">
+            <a href="Home.html">finappster</a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+            <ul class="navlinks">
+                <li><a href="Research.html">Research & Upskilling</a></li>
+                <li><a href="Planning.html">Planning & Control </a></li>
+                <li>
+                    <a href="Development.html"
+                        >Development & Quality Assurance</a
+                    >
+                </li>
+                <li>
+                    <a href="Communication.html">Communication & Teamwork</a>
+                </li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </div>
+        <span class="navTrigger">
+            <i></i>
+            <i></i>
+            <i></i>
+        </span>
+    </div>
+</nav>
+
+<section class="home"></section>
+<p style="margin: 0 auto; font-size: 20px">(Health Europa,2020)</p>
+<div style="height: 100vh">
+    <!-- just to make scrolling effect possible -->
+    <h2 class="myH2">finappster</h2>
+    <h3 class="myH3">
+        finappster provides a platform designed to allow users to align
+        financial investments with their ethical values. To do this, it presents
+        users with information about potential future investments as well as
+        information around their current investments. finappster also enables
+        users to track the performance of their investments while providing
+        insight into the ethical impact of each investment using social,
+        environmental and governance factors. The founder of finappster, Leeanna
+        Kohn-Hardy has been collaborating with the Research and Development
+        program since 2019 and has fostered one team each semester, each working
+        on various aspects of the application.
+    </h3>
+    <h3 class="myH3">
+        Leeanna’s first team, (finappster Alpha-Omega), took the existing
+        finappster application (Version Zero) that was present before AUT’s
+        involvement and redeveloped it into Version One. Version One addressed
+        issues present with Version Zero, bringing the codebase up to a modern
+        standard. Following this, finappster Delta created a production and
+        testing pipeline to facilitate future development and brought the
+        application online, specifically focusing on creating a fluid, usable
+        frontend. Because of this, no further architectural work has been done
+        on the backend, and as such at this point it is antiquated.
+    </h3>
+    <h3 class="myH3">
+        As of the start of this project, there is a barebones application
+        online, facilitating tracking of investment performance but nothing
+        more. As such there is a feature gap where the finappster product is yet
+        to distinguish itself within the market.
+    </h3>
+    <center>
+        <img
+            src="https://image.freepik.com/free-vector/robot-arms-during-operation_33099-2129.jpg"
+        />
+    </center>
+</div>
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log('OK');
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+<link rel="stylesheet" href="css/style.css" />

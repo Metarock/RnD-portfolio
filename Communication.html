@@ -1,0 +1,99 @@
+<html>
+    <body>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="Home.html">finappster</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li>
+                            <a href="Research.html">Research & Upskilling</a>
+                        </li>
+                        <li><a href="Planning.html">Planning & Control </a></li>
+                        <li>
+                            <a href="Development.html"
+                                >Development & Quality Assurance</a
+                            >
+                        </li>
+                        <li>
+                            <a href="Communication.html"
+                                >Communication & Teamwork</a
+                            >
+                        </li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+        <section class="home"></section>
+        <p style="margin: 0 auto; font-size: 20px">(Health Europa,2020)</p>
+        <div style="height: 100vh">
+            <!-- just to make scrolling effect possible -->
+            <h2 class="myH2">Ethical Reflection</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Team member details</th>
+                        <th scope="col">Last name</th>
+                        <th scope="col">First name</th>
+                        <th scope="col">Student ID</th>
+                        <th scope="col">Personal Page Link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Team member 1</td>
+                        <td>Sahib</td>
+                        <td>Azmeel</td>
+                        <td>19076196</td>
+                        <td><a href="Azmeel.html">Ethical reflection</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Team member 2</td>
+                        <td>Loomb</td>
+                        <td>Jackson</td>
+                        <td>20119160</td>
+                        <td><a href="jackson.html">Ethical reflection</a></td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Team member 3</td>
+                        <td>Sangalang</td>
+                        <td>John</td>
+                        <td>18017056</td>
+                        <td><a href="John.html">Ethical reflection</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h1 class="myH1">
+                <a href="https://github.com/Metarock/CTIS-5005">Link</a> to the
+                team's Personal Repository
+            </h1>
+        </div>
+
+        <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log('OK');
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/mytable-style.css" />
+    </body>
+</html>
