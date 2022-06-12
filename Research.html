@@ -1,4 +1,4 @@
-<nav class="nav">
+<nav class="nav affix">
     <div class="container">
         <div class="logo">
             <a href="index.html">finappster</a>
@@ -15,7 +15,6 @@
                 <li>
                     <a href="Communication.html">Communication & Teamwork</a>
                 </li>
-                <li><a href="references.html">References</a></li>
             </ul>
         </div>
         <span class="navTrigger">
@@ -25,9 +24,6 @@
         </span>
     </div>
 </nav>
-
-<section class="opportunities"></section>
-<p style="margin: 0 auto; font-size: 20px">(Shenoy,2020)</p>
 <div style="height: 100vh">
     <!-- just to make scrolling effect possible -->
     <h2 class="myH2">Research & Upskilling</h2>
@@ -63,6 +59,19 @@
             >
         </p>
     </div>
+    <div class="myP">
+        <h2>SDG Recommendation Calculation</h2>
+        <p>
+            A document for the client to understand how the team is calculating
+            her raw share and fund data.
+        </p>
+        <p>
+            <a
+                href="./Research & Upskilling/SDG__Recommendations_Calculations_Overview.pdf"
+                >SDG Recommendation Calculation.pdf</a
+            >
+        </p>
+    </div>
 </div>
 
 <!-- Jquery needed -->
@@ -71,14 +80,14 @@
 
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
 <script>
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 50) {
-            $('.nav').addClass('affix');
-            console.log('OK');
-        } else {
-            $('.nav').removeClass('affix');
-        }
-    });
+    // $(window).scroll(function () {
+    //     if ($(document).scrollTop() > 50) {
+    //         $('.nav').addClass('affix');
+    //         console.log('OK');
+    //     } else {
+    //         $('.nav').removeClass('affix');
+    //     }
+    // });
 </script>
 
 <link rel="stylesheet" href="css/style.css" />
